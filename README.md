@@ -31,9 +31,8 @@ This project focuses on predicting house prices in Boston using various machine 
 
 The Elastic Net regularization term is a combination of L1 (Lasso) and L2 (Ridge) regularization. The objective function is given by:
 
-$$
-\text{Elastic Net Loss} = \frac{1}{2N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2 + \alpha \left( \lambda \sum_{j=1}^{p} |\beta_j| + \frac{1}{2} (1 - \lambda) \sum_{j=1}^{p} \beta_j^2 \right)
-$$
+$$ \text{Elastic Net Loss} = \frac{1}{2N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2 + \alpha \left( \lambda \sum_{j=1}^{p} |\beta_j| + \frac{1}{2} (1 - \lambda) \sum_{j=1}^{p} \beta_j^2 \right)
+
 
 - \(N\) is the number of observations.
 - \(y_i\) is the observed value for the \(i\)-th observation.
